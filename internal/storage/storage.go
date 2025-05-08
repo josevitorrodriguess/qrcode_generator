@@ -1,5 +1,5 @@
 package storage
 
 type Storage interface {
-	UploadFile(fileData []byte, fileName, contentType string)
+	UploadFile(fileData []byte, fileName, contentType string) (string, error)
 }
