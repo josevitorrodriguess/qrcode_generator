@@ -19,7 +19,7 @@ func (s *S3Storage) InitSession() {
 		Credentials: credentials.NewStaticCredentials(
 			os.Getenv("AWS_ACCESS_KEY"),
 			os.Getenv("AWS_SECRET_KEY"), ""),
-		Region: aws.String("us-east-2"),
+		Region: aws.String("AWS_REGION"),
 	})
 	if err != nil {
 		panic(err)
