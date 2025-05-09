@@ -12,7 +12,7 @@ A golang application that generates Qr Codes and stores them in AWS S3. This pro
     - [AWS S3 Configuration](#aws-s3-configuration)
 
 - [API Endpoints](#api-endpoints)
-= [License](#license)
+- [License](#license)
 
 ## How to Use
 
